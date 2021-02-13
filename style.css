@@ -1,0 +1,509 @@
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+
+*{
+    font-family: Trebuchet MS; /* Default web friendly font */
+}
+
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+p, li, h1, h2, h3, h4{
+    color: #4e4e4e;
+}
+
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    
+    margin:50px 0 0 100px;
+}
+
+header{
+    background-image: linear-gradient(to left, #73ACC7,#73ACC7,#BBE1F2);
+    height: 750px;
+}
+
+
+header nav{
+    float: right;
+}
+
+header nav h2{
+    line-height: 0;
+    margin: 0;
+    text-indent: -10000px;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+header nav li{
+    
+    list-style-type: none;
+    float: left;
+    margin: 80px 50px 0 0px;
+}
+
+header nav a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 3px;
+    font-weight: 900;
+    
+   
+}
+
+header:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.dog1 {
+    float:right;
+    margin-top:161px
+}
+
+.top{
+    margin-top: 100px;
+}
+
+.wrapper h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    color: #452A31;
+    text-align: right;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+b{
+    font-family: 'Amatic SC', cursive;
+    color: #0072A8;
+    font-size: 50px;  
+}
+
+.bubble{
+    margin-top: 20px;
+    position: absolute;
+    right: 650px;
+}
+
+.centered pre{
+    position: absolute;
+    top:42%;
+    left: 50%;
+    transform: translate(-45%, -50%) rotate(-15deg);
+    font-family: 'Amatic SC', cursive;
+    color: #0072A8;
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+.overlap{
+    position: absolute;
+    z-index: 100;
+    margin-top: 30px;
+}
+
+.food {
+    -webkit-filter: drop-shadow(0 10px 8px #222);
+    filter: drop-shadow(0 10px 8px #222);
+    margin-left: 150px;
+     
+}
+
+.section1 {
+    background-color: white;
+}
+
+.box1{
+    position: relative;
+    left:50px;
+    width: 400px;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+    color: #545454;
+    font-weight: 500;
+   
+    
+}
+
+
+
+.flex-container{
+    display: flex;
+    
+    margin-top: 120px;
+    
+}
+
+.btn{
+    margin-top: 20px;
+}
+.btn a{
+    font-family: 'Montserrat', sans-serif !important;
+    text-decoration: none;
+    font-size: 18px;
+    color: #74C1E0;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.mini-food{
+    transform: scale(.75,.75);
+    position:relative;
+    top:0;
+    margin-left: 300px;
+    transform-origin: 300px 50px;
+    
+}
+
+
+.story{
+    float: left;
+   height: 200px;
+}
+
+.story h1{
+    font-family: 'Work Sans', sans-serif;
+    color: #0072A8;
+    font-size: 90px;
+    font-weight: 500;
+    text-align: left;
+    z-index: 100;
+    
+}
+.story h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #452A31;
+    font-size: 50px;
+    line-height: 1px;
+}
+.dog2 {
+    position: relative;
+    left:0;
+    top:100px;
+    float: left;
+    
+}
+
+.arrows{
+    margin-left: 50px;
+}
+
+
+.center{
+    position: relative;
+    padding:0;
+    margin: 0;
+}
+
+
+.center h2{
+    position: absolute;
+    left:45%;
+    bottom: 300px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.center h1{
+    position: absolute;
+    bottom: 250px;
+    left:42%;
+    font-family: 'Amatic SC', cursive;
+    line-height: 10px;
+    font-size: 60px;
+    color: white;
+}
+
+.center p{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-align: center;
+    bottom: 100px;
+    left:30%;
+    font-size: 25px;
+    color: white;
+   
+}
+
+.section2{
+    height: 600px;
+}
+
+.dog3{
+    
+    position: absolute;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    right:200px;
+}
+
+.arrows2{
+    position: absolute;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    right:150px;
+}
+#main-banner img{
+    width: 100%;
+    
+}
+
+.text1{
+    position: absolute;
+    margin-top: 150px;
+    padding-bottom: 100px;
+    left:150px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: #452A31;
+}
+
+.text2{
+    position: absolute;
+    margin-top: 240px;
+    padding-bottom: 100px;
+    left:150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.btn1{
+    position: absolute;
+    background-color: #2EA2D0;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    left:150px;
+    margin-top: 350px;
+    cursor: pointer;
+}
+
+.section3{
+    position: relative;
+    height: 400px;
+}
+
+.dog4{
+    
+    position: absolute;
+    margin-top: 510px;
+    right:43%;
+    z-index: 300;
+}
+
+
+.text3{
+    position: absolute;
+   
+    top: 30px;
+    left:150px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #452A31;
+    z-index: 300;
+}
+
+
+.remove{
+    border: none;
+    background-color: #F0F0F0;
+    outline-width: 0;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    width: 185px;
+    background-color: #7F7F7F;
+}
+
+/* .search{
+    position: absolute;
+    line-height: 1px;
+    top: 150px;
+    left:150px;
+    font-family: 'Amatic SC', cursive;
+    color: #452A31;
+    z-index: 300;
+} */
+
+
+#wrap {
+    margin: 150px 100px;
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    float: right;
+    padding: 0;
+    right:1210px;
+  }
+  
+  input[type="text"] {
+    height: 55px;
+    font-size: 30px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    color: #6D6D6D;
+    padding: 3px;
+    padding-right: 60px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    z-index: 3;
+    transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+    cursor: pointer;
+  }
+  
+  
+  input[type="text"] {
+    width: 400px;
+    z-index: 1;
+    border-bottom: 1px solid #BBB;
+    cursor: text;
+  }
+  input[type="submit"] {
+    height: 67px;
+    width: 63px;
+    display: inline-block;
+    float: right;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+    text-indent: -10000px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .4s ease;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+
+.view{
+    bottom: 80px;
+}
+.text4{
+    position: absolute;
+   
+    top: 30px;
+    right:250px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #452A31;
+    z-index: 300;
+}
+.text5{
+    position: absolute;
+    top: 130px;
+    right:170px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    z-index: 300;
+}
+
+.view2{
+position: absolute;
+left: 1270px;
+bottom: 80px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px){
+
+header nav{
+    float: none;
+}
+
+header nav li{
+    margin-left: 0;
+    width: 16.66%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+}
+
+
+@media screen and (max-width: 480px){
+
+
+header nav li{
+    float: none;
+    width: 100%;
+    margin: 0;
+}
+
+header nav{
+    background: #452A31;
+}
+
+header .wrapper{
+    padding: 0;
+    width: 100%;
+
+}
+
+header{
+    padding-bottom: 0;
+}
+
+header nav li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #999;
+    border-top: 1px solid #4f4f4f
+}
+
+#burger-nav{
+    width: 100%;
+    height: 40px;
+    background: url(images/burger.png) no-repeat 98% center;
+    cursor: pointer;
+}
+
+header nav ul{
+    height: 0;
+    overflow: hidden;
+}
+
+header nav ul.open{
+    height: auto;
+}
+
+}
+
